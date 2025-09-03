@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Barbod Nekoufar</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header / Nav bar -->
+        <header class="bg-gray-800 text-white p-4">
+            <div class="max-w-6x1 mx-auto flex items-center justify-between">
+                <!-- site title -->
+            <div id="site-title">
+                <h1 class="text-2xl font-bold">Barbod Nekoufar</h1>
+                <p class="text-lg">Music & Compositions</p>
+            </div>
+            <!-- navigation -->
+            <nav id="navbar" class="flex space-x-4">
+                <a href="index.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Home</a>
+                <a href="audio.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Audio Sample</a>
+                <a href="about.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">About</a>
+                <a href="#gallery" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Gallery</a>
+                <a href="contact.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Contact</a>
+            </nav>
+            </div>
+        </header>
+        <!-- Contact Form with a background -->
+        <main class="flex items-center justify-center min-h-screen px-4"
+            style="background-image: url('image/photo-1631304137044-75fd4b5776d3.avif'); background-size:cover; background-position: center;">
+            <div class="bg-white bg-opacity-70 p-8 rounded-lg max-w-lg w-full">
+             <h2 class="text-2xl font-bold mb-6 text-center">Contact Me</h2>
+        <!-- Form -->
+         <form action="mailto:barbodnekoufar@gmail.com" method="post" class="flex flex-col space-y-4">
+              <label class="flex flex-col">
+                <span class="font-semibold">Name</span>
+                <input type="text" name="name" required class="border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+              </label>
+              <label class="flex flex-col">
+                    <span class="font-semibold">Email</span>
+                    <input type="email" name="email" required class="border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+              </label>
+                <label class="flex flex-col">
+                        <span class="font-semibold">Message</span>
+                        <textarea name="message" rows="5" required class="border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"></textarea>
+                </label>
+                <button type="submit" class="bg-blue-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-blue-600">Send Message</button>
+         </form>
+        </div>
+        </main>
+</body>
+</html>
