@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Sample| Barbod Nekoufar</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+  <!-- Header / Nav bar -->
+    <header class="bg-gray-800 text-white p-4">
+        <div class="max-w-6x1 mx-auto flex items-center justify-between">
+            <!-- site title -->
+        <div id="site-title">
+            <h1 class="text-2xl font-bold">Barbod Nekoufar</h1>
+            <p class="text-lg">Music & Compositions</p>
+        </div>
+        <!-- navigation -->
+        <nav  class="flex space-x-4">
+            <a href="index.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Home</a>
+            <a href="audio.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Audio Sample</a>
+            <a href="about.html" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">About</a>
+            <a href="#gallery" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Gallery</a>
+            <a href="#contact" class="text-white px-3 py-2 rounded-md hover:bg-gray-700">Contact</a>
+        </nav>
+        </div>
+    </header>
+    <!-- Audio Sample content -->
+    <main class="flex items-center justify-center min-h-screen px-4"
+          style="background-image: url('image/photo-1631304137044-75fd4b5776d3.avif'); background-size:cover; background-position: center;">
+        <div class="bg-white bg-opacity-70 p-8 rounded-lg shadow-lg max-w-3xl w-full">
+              <h2 class="text-2xl font-bold mb-6">Audio Sample</h2>
+              <audio controls class="w-full">
+                <source src="audio/sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <p class="mt-4  text-gray-700">Listen to a sample of my work</p>
+        </div>
+    </main>
+</body>
+</html>
