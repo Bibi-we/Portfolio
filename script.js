@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Portfolio is ready!");
 
-  // 1️⃣ Smooth scroll for navbar links (just in case older browsers don’t handle CSS smooth scroll well)
+  //  Smooth scroll for navbar links (just in case older browsers don’t handle CSS smooth scroll well)
   const navLinks = document.querySelectorAll("header nav a");
 
   navLinks.forEach(link => {
